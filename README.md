@@ -1,6 +1,6 @@
 1st question
-
-def sum(ist, final_sum):
+```python
+def sum(list, final_sum):
     pairs=empty list
     numbers=empty set
     count=0
@@ -23,7 +23,7 @@ else:
     print(f"No pairs found{final_sum}")
 
 main()
-
+```
 code explanation:
 In this question the code defines function 'sum' that, when provided with a list of numbers ('ist') and the target sum ('final_sum') iterates through the
 list to identify the pairs of numbers whose sum target will equal to the target sum. the code takes user input for a list of integers and the target sum from the user calls the 'sum' function with the input values and finally prints out the pair of numbers that equal to the target sum and gives number of pairs found.
@@ -32,7 +32,7 @@ list to identify the pairs of numbers whose sum target will equal to the target 
 
 2nd question
 
-
+```python
 def range(numbers):
     if the length of numbers is less than 3:
         return "Range not possible"
@@ -46,7 +46,7 @@ except ValueError:
     exit()
 result = range(input_list)
 print(f"range {input_list} is: {result}")
-
+```
 code explanation:
 in this question the code defines a function named 'range' that calculates and returns the range of a list of numbers,it will prints an error message if the list contains fewer than three elements, then attempts to convert user input into a list of floats, handling potential ValueError exceptions by printing an error message and exiting the program if the input is not a valid list of real numbers; finally, the code calculates and prints the range of the input list if the input is valid.
 
@@ -59,7 +59,7 @@ in this question the code defines a function named 'range' that calculates and r
 
 3rd question
 
-
+```python
 def matrix_multiplication(X,Y):
     final_ans = empty list
     for a in range(length of X):
@@ -101,7 +101,7 @@ def Matrix():
     print(output)
 
 Matrix()
-
+```
 
 code explanation:
 in this question the code defines function matrix_multiplication that multiplies two matrices, a power_multiplication that raises a matrix to a given power using matrix multiplication, and a main function (Matrix) that takes user input asking a number of rows and columns and values of a matrix, applies the power multiplication to the matrix based on user input, and prints the result matrix.
@@ -110,7 +110,7 @@ in this question the code defines function matrix_multiplication that multiplies
 
 4th question
 
-
+```python
 def occurring(input):
     string1= ''.join(char.lower() for char in input if char.isalpha())
     character_count={}
@@ -122,7 +122,7 @@ def occurring(input):
 input=input("Enter a string:")
 final_character, final_count = occurring(input)
 print(f"The most occurring character is '{final_character}' & occurrence count is {final_count}.")
-
+```
 
 
 code explanation:
