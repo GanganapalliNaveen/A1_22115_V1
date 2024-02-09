@@ -3,7 +3,7 @@
 
 ## Pseudo Code:
 
-'''
+```
 FUNCTION euclidean_distance(a, b):
     SET euclid_dist = 0
     FOR EACH element i IN RANGE(length of a):
@@ -69,7 +69,7 @@ SET coordinates = [(8.0, 9.0, 1),(7.0, 9.0, 1),(76.0, 8.0, 1),(54.0, 7.0, 2),(12
 SET k = 2
 CALL KNN(k, coordinates)
 PRINT "Classification result:", result
-'''
+```
 
 ## Code Explanation:
 
